@@ -2,7 +2,7 @@
   "name": "github2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://erickks.github.io/github4/",
+  "homepage": "https://uriellevy.github.io/github4/",
   "type": "module",
   "scripts": {
     "dev": "vite",
