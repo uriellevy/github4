@@ -5,6 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from './components/Home.jsx';
 import Contact from './components/Contact.jsx';
+import Test from './components/Test.js';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
       {
         path: "/github4/contact",
         element: <Contact />,
+      },
+      {
+        path: "/github4/test:id",
+        element: <Test />,
       },
     ],
   },
