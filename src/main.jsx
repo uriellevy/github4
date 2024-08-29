@@ -21,7 +21,7 @@ const router = createBrowserRouter([
         element: <Contact />,
       },
       {
-        path: "/github4/about",
+        path: "/github4/about/:id",
         element: <About />,
       },
     ],
