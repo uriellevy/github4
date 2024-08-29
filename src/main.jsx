@@ -5,7 +5,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from './components/Home.jsx';
 import Contact from './components/Contact.jsx';
-import About from './components/About.js';
+import About from './components/About.jsx';
 
 const router = createBrowserRouter([
   {
