@@ -20,10 +20,6 @@ const router = createBrowserRouter([
         path: "/github4/contact",
         element: <Contact />,
       },
-      {
-        path: "/github4/test:id",
-        element: <Test />,
-      },
     ],
   },
 ]);
